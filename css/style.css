@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1edc3e5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-block{
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px  rgb(45, 42, 42);
+}
+.title,input{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: rgb(77, 77, 171);
+   border-radius: 8px;
+   padding: 5px;
+   color: whitesmoke;
+}
+input{
+    background-color: whitesmoke;
+    color: rgb(48, 42, 42);
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 0;
+}
+input:focus{
+    outline: none;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 10px aqua;
+}
+::placeholder{
+    font-size: 1rem;
+}
+.from-to{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 15px;
+}
+.image-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 8px;
+
+
+}
+.image-select img{
+    width: 2rem;
+
+}
+.image-select select{
+    font-size: 16px;
+     border: none;
+     outline: none;
+     background-color: transparent;
+     
+}
+.from-text,.to-text{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: 300;
+}
+.convert-from{
+    margin-left: 10px;
+    
+}
+.convert-to{
+    margin-right: 10px;
+}
+.convertor{
+    margin-top: 12px;
+    width: 35px;
+}
+.currency-display{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #187628;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.exchange-button{
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+}
+.exchange-button button{
+    width: 100%;
+    padding: 6px;
+    font-size: 20px;
+    background-color: rgb(116, 66, 235);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.exchange-button button:hover{
+   
+   background-color: rgb(165, 130, 248);
+   color: whitesmoke;
+   
+}
